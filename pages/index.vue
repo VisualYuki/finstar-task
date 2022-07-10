@@ -41,7 +41,7 @@
         </v-card>
       </v-col>
     </v-row>
-    <div v-if="isReadyChartData" style="width: 300px">
+    <div v-if="isReadyChartData" style="width: 300px; margin-top: 50px">
       <Bar :chart-data="chartData" />
     </div>
   </div>
